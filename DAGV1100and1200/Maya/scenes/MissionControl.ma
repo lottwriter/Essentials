@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: MissionControl.ma
-//Last modified: Wed, Nov 05, 2025 12:38:15 PM
+//Last modified: Wed, Nov 05, 2025 12:39:01 PM
 //Codeset: 1252
 file -rdi 1 -ns "Asset1" -rfn "Asset1RN" -op "v=0;" -typ "mayaAscii" "C:/Github/Essentials/DAGV1100and1200/Maya/scenes/Asset1.ma";
 file -r -ns "Asset1" -dr 1 -rfn "Asset1RN" -op "v=0;" -typ "mayaAscii" "C:/Github/Essentials/DAGV1100and1200/Maya/scenes/Asset1.ma";
@@ -11,17 +11,17 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "2A5E2E3E-44F5-14CF-CA6D-A1A0A7FF107F";
+fileInfo "UUID" "8D926A62-47DB-1909-B264-639E84CF9792";
 createNode transform -s -n "persp";
 	rename -uid "F7DC3E64-468F-1003-2CFC-A49BAD5C175D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 28.341077431438286 20.100340351167468 32.830565600734133 ;
-	setAttr ".r" -type "double3" -24.338352729507676 -310.19999999992837 0 ;
+	setAttr ".t" -type "double3" 9.0657819787616152 12.186082017328056 21.372545554261933 ;
+	setAttr ".r" -type "double3" -28.53835272950657 -320.19999999992501 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FB3A8B54-46EB-C4ED-5A45-22889D0DB4AD";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 47.242495687695758;
+	setAttr ".coi" 24.187543106185366;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
